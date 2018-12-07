@@ -123,6 +123,7 @@ You may find it necessary to modify code in the util.h and util.c files to add t
 * **Benchmarks**: Determine the ideal number of resolver threads for a given processor core count. Provide benchmark data backing up your determination. Include this documentation in your README.
 * **Go**: Implement the assignment in go using go's thrread-safe channels and threads, minimum resolver/requester threads are the same. 
 * **Conditional Variables in C11 or newer**: Implement your synchronization protections using C11 or newer conditional variables. This will require you to change the compilation to C11 or a newer C compiler so make sure you update the Makefile and include in your tar package of files if you choose this option. You have to submit the original project working with mutexes or semaphores to get credit for this or any of the extra credit.
+* **Encrypted FUSE** (10 points): Implement the [https://github.com/asayler/CU-CS3753-PA5|encrypted FUSE FS project] I briefly discussed in class
 
 ## Grading
 The assignment grading will be broken down as follows:
